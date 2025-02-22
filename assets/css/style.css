@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 1230px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1230px) { 
+    .container {
+        width: 100%;
+    }
+ }
+
+a {
+    text-decoration: none;
+}
+
+/* 像素字体 */
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('/assets/font/fusion-pixel-12px-monospaced-zh_hans.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyWebFont';
+    color: white;
+    /* background-color: rgb(235, 227, 204);
+    background-image: url(/assets/images/mjt.jpg);
+    background-image: url(/assets/images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+/* 图片不能拖拽 */
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+}
