@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>about</h1>
         <nuxt-link to="/">首页</nuxt-link>
         <testtime />
     </div>

@@ -51,4 +51,27 @@ export default defineNuxtConfig({
   // 直接生成静态网页，部署在静态文件服务器上‘
   // 但是会有一些限制，不然编译不过
   // npx nuxi generate
+
+
+  app: {
+    head: { // 添加51LA统计
+      script: [
+        {
+          src: '//sdk.51.la/js-sdk-pro.min.js',
+          id: 'LA_COLLECT'
+        },
+        {
+          innerHTML: `
+            LA.init({
+              id: "Kjp6cQT08wfZhRbu",
+              ck: "Kjp6cQT08wfZhRbu",
+              autoTrack: true,
+              hashMode: true,
+              screenRecord: true
+            })
+          `
+        }
+      ]
+    }
+  }
 })

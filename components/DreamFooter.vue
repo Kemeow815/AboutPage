@@ -35,8 +35,7 @@
                 </a>
             </div>
             <div class="account">
-                <img src="@/assets/images/official.jpg" alt="微信公众号搜索:程序员张某"
-                    title="微信公众号搜索:程序员张某">
+                <img src="@/assets/images/official.jpg" alt="微信公众号搜索:程序员张某" title="微信公众号搜索:程序员张某">
             </div>
         </div>
 
@@ -62,11 +61,18 @@
     </footer>
 </template>
 <script setup>
+import { ref } from 'vue'
+
+
+// let PromptBox = ref(false)
+// let HoverPrompt = () => {
+//     PromptBox.value = !PromptBox.value
+// }
 </script>
 <style scoped lang='scss'>
 footer {
     background-color: #fafafa;
-    border-top: 1px solid #eee;
+    // border-top: 1px solid #eee;
     padding: 100px 0 1rem 0;
 
     .nav {
@@ -120,7 +126,13 @@ footer {
                 padding: 0;
                 margin: 0;
                 font-weight: bold;
+                white-space: nowrap !important;
+
+                // span {
+                //     display: none;
+                // }
             }
+
         }
 
         .mylinks:hover,
@@ -141,6 +153,8 @@ footer {
         }
     }
 
+
+
     .account {
         width: 280px;
         margin: 0 auto;
@@ -151,7 +165,6 @@ footer {
         }
     }
 }
-
 
 // 悬浮提示框
 .HoverPrompt {
@@ -190,7 +203,10 @@ footer {
     }
 }
 
-.HoverPrompt:hover .PromptBox,
+.HoverPrompt:hover .PromptBox {
+    display: block;
+}
+
 .HoverPrompt:active .PromptBox {
     display: block;
 }

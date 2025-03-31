@@ -151,7 +151,7 @@ watch(isInViewport, () => {
     width: 100%;
     padding: 100px 0 200px 0;
     background-color: #fff;
-    border-top: 1px solid #eee;
+    // border-top: 1px solid #eee;
 
     .container-box {
         height: 100%;

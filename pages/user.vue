@@ -1,6 +1,5 @@
 <template>
 <div>
-    88
     <NuxtPage></NuxtPage>
 </div>
 </template>

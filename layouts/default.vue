@@ -8,7 +8,7 @@
             <!-- <indexTestPage /> -->
             <indexAboutPage />
             <indexWorksPage />
-            <slot></slot>
+            <!-- <slot></slot> -->
         </main>
         <DreamFooter />
     </div>
@@ -20,5 +20,9 @@ import { ref, onMounted, onUnmounted } from 'vue';
 <style scoped lang='scss'>
 .Home-box {
     position: relative;
+
+    main{
+        margin-bottom: 1rem;
+    }
 }
 </style>

@@ -50,6 +50,9 @@ import WallpaperBanner from './assets/images/works/duoyu/banner.jpg';
 import moreGithub from './assets/images/works/more/github.png';
 import moreBanner from './assets/images/works/more/banner.jpg';
 
+import bilibiliLogo from './assets/images/works/bilibili/bilibili.png';
+import bilibiliAutoWidescreenBanner from './assets/images/works/bilibili/bilibili-AutoWidescreen.png';
+
 const data = ref([
     {
         name: "ThinKing 笔记知识管理平台",
@@ -103,6 +106,19 @@ const data = ref([
         },
         link: "#",
     },
+    {
+        name: "b站自动宽屏",
+        describe: "B站播放页自动点击宽屏",
+        logo: bilibiliLogo,
+        banner: bilibiliAutoWidescreenBanner,
+        tag: ['Tampermonkey插件', 'bilibili'],
+        Beta: {
+            color: '#51b23c',
+            bgColor: '#eef4ed',
+            title: 'v1.0.3'
+        },
+        link: "https://greasyfork.org/zh-CN/scripts/531057-bilibili-b%E7%AB%99%E6%92%AD%E6%94%BE%E9%A1%B5%E8%87%AA%E5%8A%A8%E5%AE%BD%E5%B1%8F"
+    },
     // {
     //     name: "多鱼壁纸",
     //     describe: "你的专注浏览器起始页",
@@ -121,7 +137,7 @@ const data = ref([
         describe: "一些早期 / 开发中 / 实验性的作品",
         logo: moreGithub,
         banner: moreBanner,
-        tag: ['小程序', '网站'],
+        tag: ['more'],
         link: "https://github.com/izcw"
     }
 ])
