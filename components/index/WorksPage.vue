@@ -53,6 +53,9 @@ import moreBanner from './assets/images/works/more/banner.jpg';
 import bilibiliLogo from './assets/images/works/bilibili/bilibili.png';
 import bilibiliAutoWidescreenBanner from './assets/images/works/bilibili/bilibili-AutoWidescreen.png';
 
+import StardewValleyLogo from './assets/images/works/StardewValley/logo.png';
+import StardewValleyBanner from './assets/images/works/StardewValley/banner.webp';
+
 const data = ref([
     {
         name: "ThinKing 笔记知识管理平台",
@@ -115,9 +118,22 @@ const data = ref([
         Beta: {
             color: '#51b23c',
             bgColor: '#eef4ed',
-            title: 'v1.0.3'
+            title: 'v1.0.4'
         },
         link: "https://greasyfork.org/zh-CN/scripts/531057-bilibili-b%E7%AB%99%E6%92%AD%E6%94%BE%E9%A1%B5%E8%87%AA%E5%8A%A8%E5%AE%BD%E5%B1%8F"
+    },
+    {
+        name: "Leaf Stables (Seasonal)",
+        describe: "这是一个“星露谷物语”游戏的美化Mod，四季叶语·马厩",
+        logo: StardewValleyLogo,
+        banner: StardewValleyBanner,
+        tag: ['游戏Mod', 'Stardew Valley', '星露谷物语'],
+        Beta: {
+            color: '#51b23c',
+            bgColor: '#eef4ed',
+            title: 'v1.0.0'
+        },
+        link: "https://www.nexusmods.com/stardewvalley/mods/32881"
     },
     // {
     //     name: "多鱼壁纸",
