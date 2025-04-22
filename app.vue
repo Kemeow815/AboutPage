@@ -10,11 +10,11 @@
 import { ref } from 'vue';
 
 useHead({
-  title: '白日作梦｜张成威',
+  title: '喵落阁｜克喵爱吃卤面',
   meta: [
-    { name: 'author',content: "张成威"},
-    { name: 'description', content: '这里是张成威的个人主页（zhangchengwei.work），————知不足而奋进，望远山而前行' },
-    { name: 'keywords', content: '白日作梦,张成威,about.zhangchengwei.work,个人作品,想法,个人主页,个人网站,博客' }
+    { name: 'author',content: "克喵爱吃卤面"},
+    { name: 'description', content: '这里是克喵爱吃卤面的个人主页（home.kemiaosw.top），————愿你看清一切真相后，依旧热爱你的家人和朋友。' },
+    { name: 'keywords', content: '喵落阁,克喵爱吃卤面,home.kemiaosw.top,个人作品,想法,个人主页,个人网站,博客' }
   ]
 })
 

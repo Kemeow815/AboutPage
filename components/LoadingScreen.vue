@@ -1,7 +1,7 @@
 <template>
     <div v-if="isLoading" id="loading-screen" :class="{ 'blurEffectEnd': blurEffectEndStatus }">
         <div id="await-box" :class="{ 'await-boxEnd': blurEffectEndStatus }">
-            <img src="/assets/images/logo.png" alt="">
+            <img src="https://s2.loli.net/2025/04/21/OMNycVpidhQt92r.png" alt="">
             <p>加载中...</p>
         </div>
         <div class="spinner">

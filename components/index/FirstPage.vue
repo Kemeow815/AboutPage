@@ -2,17 +2,17 @@
     <div class="FirstPage" id="index">
         <div class="FirstPage-box">
             <div class="container container-box">
-                <img class="logo" src="/assets/images/logo.png" alt="">
-                <h1>白日作梦｜张成威</h1>
+                <img class="logo" src="https://s2.loli.net/2025/04/21/OMNycVpidhQt92r.png" alt="">
+                <h1>喵落阁｜克喵爱吃卤面</h1>
                 <h2 class="typewriter">
                     <span v-html="typewriter"></span><span class="cursorText" v-show="typewriterStatus">｜</span>
                 </h2>
-                <p>/*&ensp;这里是张成威·Zhang Chengwei&ensp;的个人网站主页&ensp;*/</p>
+                <p>/*&ensp;这里是克喵爱吃卤面·Ke Miao&ensp;的个人网站主页&ensp;*/</p>
             </div>
 
             <a href="#about" class="down-btn" draggable="false">
                 <img src="/assets/icon/downward.png" class="btn-inside" alt="">
-                <img src="/assets/icon/downward2.png" class="btn-outer" alt="">
+                <!-- <img src="/assets/icon/downward2.png" class="btn-outer" alt=""> -->
             </a>
         </div>
     </div>
@@ -60,7 +60,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 const typewriter = ref(''); // 初始化空字符串
 const typewriterStatus = ref(true); // 控制光标显示
 // 定义要打印的文本，包括 HTML 格式
-const printText = `知不足而奋进 望远山而前行`;
+const printText = `愿你看清一切真相后，依旧热爱你的家人和朋友。`;
 
 // 调用 typeWriter 函数开始打字
 onMounted(() => {

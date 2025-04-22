@@ -6,7 +6,7 @@
                 <p>你需要的都在这里&emsp;</p>
             </div>
             <div class="mylinks_div">
-                <a class="item" href="https://www.zhangchengwei.work" target="_blank" rel="张成威的网络日志">
+                <a class="item" href="https://blog-v3.kemeow.top" target="_blank" rel="克喵的网络日志">
                     <div class="mylinks">
                         <img src="@/assets/images/icon/blog.png" alt="" class="item_mylinks_img">
                         <img src="@/assets/images/icon/blog2.png" alt="" class="item_mylinks_img2">
@@ -26,25 +26,39 @@
                         <p>简历</p>
                     </div>
                 </div>
-                <a class="item" href="https://github.com/izcw" target="_blank" rel="Github">
+                <a class="item" href="https://github.com/Kemeow815" target="_blank" rel="Github">
                     <div class="mylinks">
                         <img src="@/assets/images/icon/github.png" alt="" class="item_mylinks_img">
                         <img src="@/assets/images/icon/github2.png" alt="" class="item_mylinks_img2">
                         <p>Github</p>
                     </div>
                 </a>
+                <a class="item" href="https://t.me/Kemiaojun" target="_blank" rel="Telegram">
+                    <div class="mylinks">
+                        <img src="@/assets/images/icon/telegram.png" alt="" class="item_mylinks_img">
+                        <img src="@/assets/images/icon/telegram2.png" alt="" class="item_mylinks_img2">
+                        <p>Telegram</p>
+                    </div>
+                </a>
+                <a class="item" href="https://twitter.com/kemiaosw" target="_blank" rel="twitter">
+                    <div class="mylinks">
+                        <img src="@/assets/images/icon/twitter.png" alt="" class="item_mylinks_img">
+                        <img src="@/assets/images/icon/twitter2.png" alt="" class="item_mylinks_img2">
+                        <p>X</p>
+                    </div>
+                </a>
             </div>
-            <div class="account">
+            <!-- <div class="account">
                 <img src="@/assets/images/official.jpg" alt="微信公众号搜索:程序员张某" title="微信公众号搜索:程序员张某">
-            </div>
+            </div> -->
         </div>
 
         <div class="nav">
-            <a href="https://www.zhangchengwei.work" rel="©2022-2025 张成威" title="©2022-2025 张成威">©2025 张成威</a>
-            <a href="mailto:zhangchengwei.work@outlook.com">我的邮箱</a>
+            <a href="https://blog-v3.kemeow.top" rel="©2025-2025 克喵爱吃卤面" title="©2025-2025 喵爱吃卤面">©2025 克喵爱吃卤面</a>
+            <a href="mailto:kemiaofx@163.com">我的邮箱</a>
         </div>
 
-        <div
+        <!-- <div
             style="margin: 0px auto; padding-bottom:3rem; display: flex; flex-wrap: wrap; justify-content: center;font-size: 12px;">
             <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45098102000465"
                 title="桂公网安备 45098102000465号"
@@ -57,7 +71,7 @@
             </a>
             <a target="_blank" href="https://beian.miit.gov.cn/" title="桂ICP备2022009640号-1"
                 style="display: inline-block; text-decoration: none; padding-left: 1em; margin: 0px 0px 0px 5px; color: rgb(147, 147, 147); height: 20px; line-height: 20px;">桂ICP备2022009640号-1</a>
-        </div>
+        </div> -->
     </footer>
 </template>
 <script setup>

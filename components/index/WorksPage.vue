@@ -33,107 +33,107 @@
 <script setup>
 import { ref } from 'vue';
 
-import ThinKingLogo from './assets/images/works/ThinKing/logo.png';
-import ThinKingBanner from './assets/images/works/ThinKing/banner.png';
+import MusicLogo from './assets/images/works/music/logo.png';
+import MusicBanner from './assets/images/works/music/music.png';
 
-import PicLogo from './assets/images/works/Pic/logo.png';
+import NuxtLogo from './assets/images/works/Nuxt/nuxt.png';
 // import PicBanner from './assets/images/works/Pic/banner.jpg';
 
-import ZebraLogo from './assets/images/works/Zebra/logo.png';
-import ZebraBanner from './assets/images/works/Zebra/banner.png';
+import HomeLogo from './assets/images/works/Home/home.png';
+// import ZebraBanner from './assets/images/works/Zebra/banner.png';
 
-import duoyuLogo from './assets/images/works/duoyu/logo.png';
-import duoyuBanner from './assets/images/works/duoyu/banner.png';
+import dailyLogo from './assets/images/works/news/logo.png';
+// import duoyuBanner from './assets/images/works/duoyu/banner.png';
 
-import WallpaperBanner from './assets/images/works/duoyu/banner.jpg';
+// import WallpaperBanner from './assets/images/works/duoyu/banner.jpg';
 
-import moreGithub from './assets/images/works/more/github.png';
-import moreBanner from './assets/images/works/more/banner.jpg';
+import montorLogo from './assets/images/works/montor/logo.png';
+// import moreBanner from './assets/images/works/more/banner.jpg';
 
-import bilibiliLogo from './assets/images/works/bilibili/bilibili.png';
-import bilibiliAutoWidescreenBanner from './assets/images/works/bilibili/bilibili-AutoWidescreen.png';
+import memosLogo from './assets/images/works/memos/logo.png';
+// import bilibiliAutoWidescreenBanner from './assets/images/works/bilibili/bilibili-AutoWidescreen.png';
 
-import StardewValleyLogo from './assets/images/works/StardewValley/logo.png';
-import StardewValleyBanner from './assets/images/works/StardewValley/banner.webp';
+import TGLogo from './assets/images/works/TG/logo.png';
+// import StardewValleyBanner from './assets/images/works/StardewValley/banner.webp';
 
 const data = ref([
     {
-        name: "ThinKing 笔记知识管理平台",
-        describe: "让创意与思维流畅连接，助你高效管理知识与灵感。",
-        logo: ThinKingLogo,
-        banner: ThinKingBanner,
-        tag: ['全平台', '线上应用'],
+        name: "克喵的音乐页",
+        describe: "基于 HeoMusic 修改的音乐播放器",
+        logo: MusicLogo,
+        banner: MusicBanner,
+        tag: ['Music', '音乐播放器'],
         Beta: {
             color: '#6c38c0',
             bgColor: '#efebf8',
-            title: 'Beta'
+            title: 'Music'
         },
-        link: "https://www.note.zhangchengwei.work/home"
+        link: "https://music.kemiao.online"
     },
     {
-        name: "多鱼图床",
-        describe: "用于上传图片、文件、压缩包等，转为网络链接供于下载或预览",
-        logo: PicLogo,
-        banner: 'https://picserver.duoyu.link/picfile/image/202306/07-1686097251837.jpg',
+        name: "克喵的博客",
+        describe: "基于Nuxt3重构的个人博客，支持评论、RSS订阅等功能。",
+        logo: NuxtLogo,
+        banner: 'https://s2.loli.net/2025/04/19/aoxepgYuJdAVqKm.png',
         tag: ['小程序', '网站', '线上应用'],
         Beta: {
             color: '#f7c959',
             bgColor: '#faf3da',
-            title: '重构中'
+            title: '博客'
         },
-        link: "https://www.pic.duoyu.link/login.html"
+        link: "https://blog-v3.kemeow.top"
     },
     {
-        name: "斑马在线剪贴板",
-        describe: "免费文本、图片、文件临时分享",
-        logo: ZebraLogo,
-        banner: ZebraBanner,
-        tag: ['小程序', '网站', '线上应用'],
+        name: "克喵的主页",
+        describe: "基于梦爱吃鱼大佬的主页",
+        logo: HomeLogo,
+        banner: 'https://s2.loli.net/2025/04/22/47GJgqoTbCELAIX.png',
+        tag: ['主页', '网站'],
         Beta: {
             color: '#5a9cf8',
             bgColor: '#eef5fe',
-            title: '开发中'
+            title: '主页'
         },
         link: "https://www.zebra.duoyu.link/"
     },
     {
-        name: "多鱼起始页",
-        describe: "你的专注浏览器起始页，一键打开、收藏、管理，提升工作效率。",
-        logo: duoyuLogo,
-        banner: duoyuBanner,
-        tag: ['Chrome插件', '线上应用'],
+        name: "每日热榜",
+        describe: "基于 dailyhot api 的每日热榜。",
+        logo: dailyLogo,
+        banner: 'https://s2.loli.net/2025/04/19/KqLPd1UuxBkzaQS.png',
+        tag: ['热榜', '网站'],
         Beta: {
             color: '#919398',
             bgColor: '#f4f4f5',
-            title: '计划中'
+            title: '热榜'
         },
-        link: "#",
+        link: "https://dailyhot.kemeow.cn/",
     },
     {
-        name: "b站自动宽屏",
-        describe: "B站播放页自动点击宽屏",
-        logo: bilibiliLogo,
-        banner: bilibiliAutoWidescreenBanner,
-        tag: ['Tampermonkey插件', 'bilibili'],
+        name: "memos说说",
+        describe: "基于memos的说说页面",
+        logo: memosLogo,
+        banner: 'https://s2.loli.net/2025/04/22/S78ANHKUfnGM34v.png',
+        tag: ['memos', '说说'],
         Beta: {
             color: '#51b23c',
             bgColor: '#eef4ed',
-            title: 'v1.0.4'
+            title: 'memos说说'
         },
-        link: "https://greasyfork.org/zh-CN/scripts/531057-bilibili-b%E7%AB%99%E6%92%AD%E6%94%BE%E9%A1%B5%E8%87%AA%E5%8A%A8%E5%AE%BD%E5%B1%8F"
+        link: "https://memos.kemiaosw.top/"
     },
     {
-        name: "Leaf Stables (Seasonal)",
-        describe: "这是一个“星露谷物语”游戏的美化Mod，四季叶语·马厩",
-        logo: StardewValleyLogo,
-        banner: StardewValleyBanner,
-        tag: ['游戏Mod', 'Stardew Valley', '星露谷物语'],
+        name: "克喵的电报动态说说",
+        describe: "基于电报的说说页面",
+        logo: TGLogo,
+        banner: 'https://s2.loli.net/2025/04/22/MOsAVIKhT2wSEGm.png',
+        tag: ['Telegram', '说说'],
         Beta: {
             color: '#51b23c',
             bgColor: '#eef4ed',
-            title: 'v1.0.0'
+            title: 'TG说说'
         },
-        link: "https://www.nexusmods.com/stardewvalley/mods/32881"
+        link: "https://shuoshuo.kemiao.online/"
     },
     // {
     //     name: "多鱼壁纸",
@@ -149,12 +149,17 @@ const data = ref([
     //     link: "#"
     // },
     {
-        name: "我的其它作品",
-        describe: "一些早期 / 开发中 / 实验性的作品",
-        logo: moreGithub,
-        banner: moreBanner,
-        tag: ['more'],
-        link: "https://github.com/izcw"
+        name: "网站监控",
+        describe: "对我部分网站的监控页",
+        logo: montorLogo,
+        banner: 'https://s2.loli.net/2025/04/22/uYwhcpf5jF1bd37.png',
+        tag: ['网站监控'],
+        Beta: {
+            color: '#21853c',
+            bgColor: '#eef65d',
+            title: '网站监控'
+        },
+        link: "https://montor.kemeow.cn/"
     }
 ])
 </script>

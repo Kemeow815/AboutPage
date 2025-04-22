@@ -2,8 +2,8 @@
     <header>
         <div class="container container-box">
             <div class="title">
-                <a href="/"><img class="logo" style="width: 30px;" src="/assets/images/logo.png" alt="">
-                    <h3>白日作梦｜张成威</h3>
+                <a href="/"><img class="logo" style="width: 30px;" src="https://s2.loli.net/2025/04/21/OMNycVpidhQt92r.png" alt="">
+                    <h3>喵落阁｜克喵爱吃卤面</h3>
                 </a>
             </div>
 

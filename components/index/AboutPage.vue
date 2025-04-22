@@ -91,18 +91,17 @@ const typewriter = ref(''); // 初始化空字符串
 const typewriterStatus = ref(true); // 控制光标显示
 // 定义要打印的文本，包括 HTML 格式
 const printText = `嗨，很高兴见到你啊！
-这里是我的个人网站
+这里是我的个人主页
 里面展示我的所有<span class="HighlightText">作品</span>
 以及<span class="HighlightText">联系</span>我的方式
 
-我的网名是<span class="HighlightText">白日作梦</span>
-我是一个有着广泛爱好的程序员，包括<span class="HighlightText">设计、摄影、环游世界等等...</span>
+我的网名是<span class="HighlightText">克喵爱吃卤面</span>
+我是一个大二在读牛马，专业<span class="HighlightText">自动化技术与应用</span>
 
 还是一名<span class="HighlightText">白日梦想家</span>。
 
-我喜欢一切发挥创造力的事情，喜欢给自己挖新坑，做一些有意思的项目！
-这个网站就算是其中的一个坑吧～
-我打算每年都重构一下
+我喜欢分享开源项目、资源和生活记录。
+这个网站是我的个人主页~
 
 好了！就说这么多吧，欢迎常来<span class="HighlightText">☺</span>`;
 
