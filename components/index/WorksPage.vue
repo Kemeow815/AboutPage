@@ -36,7 +36,7 @@ import { ref } from 'vue';
 import MusicLogo from './assets/images/works/Music/logo.png';
 import MusicBanner from './assets/images/works/Music/music.png';
 
-import NuxtLogo from './assets/images/works/Nuxt/nuxt.png';
+import NuxtLogo from './assets/images/works/Nuxt/Nuxt.png';
 // import PicBanner from './assets/images/works/Pic/banner.jpg';
 
 import HomeLogo from './assets/images/works/Home/home.png';
